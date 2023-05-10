@@ -50,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
         MainActivity.this.finish();
 
     }
+    public void enter(View view ){
+
+        MainActivity.this.start();
+
+    }
     public void Setting(View view){
 
         Intent intent = new Intent(this,Setting.class);
