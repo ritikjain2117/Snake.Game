@@ -252,20 +252,7 @@ public void gameOver(){
 
         }
         @Override
-        public void onTick(long millisecondsUntilFinished) {
 
-                txtCountDown=findViewById(R.id.txtCount);
-                //Progress bar
-                if (count != 0) {
-                    count--;
-                    txtCountDown.setText("-" + count);
-                } else {
-                    txtCountDown.setTextSize(25);
-                    txtCountDown.setText("GO");
-                }
-
-
-        }
 
         @Override
         public void onFinish(){
