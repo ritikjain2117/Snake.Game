@@ -19,8 +19,8 @@ public class SnakeHead {
     public int getHead(){
         return Head;
     }
-    public int getHead2(){
-        return Head2;
+    public int getHead3(){
+        return Head3;
     }
     public int getTail(){
         return Tail;
