@@ -48,7 +48,7 @@ public class HeadSetting extends AppCompatActivity {
         } else if (e.getAction() == MotionEvent.ACTION_UP) {
             Xstop = e.getX();
             Ystop = e.getY();
-
+            Zstop = e.getZ();
             if(Xstart + 100 < Xstop) {
 
                 //right
