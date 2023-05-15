@@ -13,6 +13,7 @@ private int lastMovement = 1;
     private int FirstMovement = 10;
 
 private SnakeHead Head;
+    private SnakeTail Tail;
 private Random rand;
 
 ///=====>>Model<<======
