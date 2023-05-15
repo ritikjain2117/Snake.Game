@@ -218,6 +218,7 @@ public void moveGame() {
 
     }
     decreseMatrix();
+    increaseMatrix();
     lastMov = lastMovement;
 
 }
