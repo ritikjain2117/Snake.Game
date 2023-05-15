@@ -14,7 +14,6 @@ private int lastMovement = 1;
 
 private SnakeHead Head;
     private SnakeTail Tail;
-private Random rand;
 
 ///=====>>Model<<======
 
