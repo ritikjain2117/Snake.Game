@@ -18,6 +18,7 @@ public class GraphicsSnake {
     private float pxwidthBlock;
     private float pxheightBlock;
     private Body model;
+    private LowerBody model;
     private ImageView block[][];
     private int bodyTexture1;
     private int HeadLeft,HeadRight,HeadUp,HeadDown;
